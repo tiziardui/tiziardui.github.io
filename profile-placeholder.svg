@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+<rect width="400" height="500" fill="#e8e8e3"/>
+<circle cx="200" cy="190" r="74" fill="#c5c8c4"/>
+<path d="M80 455c11-101 56-154 120-154s109 53 120 154" fill="#c5c8c4"/>
+<text x="200" y="474" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#6b7074">Tiziano Arduini</text>
+</svg>
