@@ -200,30 +200,30 @@ h1, h2, h3 { margin-top: 0; }
 
 .profile-links a:hover { border-bottom-color: var(--accent); }
 
-.institutional-link {
+.profile-university-logo {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+  opacity: 0.9;
+  transition: opacity 140ms ease, transform 140ms ease;
 }
 
-.institutional-link img {
-  width: 76px;
+.profile-university-logo img {
+  width: 86px;
   height: auto;
   display: block;
-  flex: 0 0 auto;
-  margin-left: 3px;
 }
 
-.institutional-link span {
-  border-bottom: 1px solid transparent;
+.profile-university-logo:hover {
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
-.institutional-link:hover {
-  border-bottom-color: transparent !important;
-}
-
-.institutional-link:hover span {
-  border-bottom-color: var(--accent);
+.profile-university-logo:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 .section {
@@ -390,7 +390,7 @@ h1, h2, h3 { margin-top: 0; }
     padding-top: 50px;
   }
   .profile-card { align-items: flex-start; text-align: left; }
-  .profile-university-logo { margin-bottom: 14px; }
+  .profile-university-logo { margin-top: 16px; }
   .profile-university-logo img { width: 82px; }
   .portrait-frame { width: min(300px, 82vw); }
   .social-icons { justify-content: flex-start; }
@@ -402,7 +402,7 @@ h1, h2, h3 { margin-top: 0; }
 }
 
 @media (max-width: 520px) {
-  .institutional-link img { width: 68px; }
+  .profile-university-logo img { width: 76px; }
   .wrap { width: min(calc(100% - 28px), var(--max)); }
   .nav { min-height: 58px; }
   .nav-links { gap: 18px; }
