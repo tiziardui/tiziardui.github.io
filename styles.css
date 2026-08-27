@@ -207,10 +207,11 @@ h1, h2, h3 { margin-top: 0; }
 }
 
 .institutional-link img {
-  width: 42px;
+  width: 76px;
   height: auto;
   display: block;
   flex: 0 0 auto;
+  margin-left: 3px;
 }
 
 .institutional-link span {
@@ -336,9 +337,9 @@ h1, h2, h3 { margin-top: 0; }
 .wip h3 {
   margin: 0 0 5px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.18rem;
+  font-size: 1.30rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.34;
 }
 .wip p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 
@@ -401,6 +402,7 @@ h1, h2, h3 { margin-top: 0; }
 }
 
 @media (max-width: 520px) {
+  .institutional-link img { width: 68px; }
   .wrap { width: min(calc(100% - 28px), var(--max)); }
   .nav { min-height: 58px; }
   .nav-links { gap: 18px; }
