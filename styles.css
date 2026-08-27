@@ -55,8 +55,8 @@ a:hover { color: var(--accent); }
 
 .hero.profile-hero {
   display: grid;
-  grid-template-columns: 320px minmax(0, 1fr);
-  gap: 74px;
+  grid-template-columns: 340px minmax(0, 1fr);
+  gap: 82px;
   align-items: start;
   padding: 72px 0 70px;
   border-bottom: 1px solid var(--line);
@@ -71,20 +71,20 @@ a:hover { color: var(--accent); }
 
 .profile-university-logo {
   display: block;
-  margin: 0 0 20px;
+  margin: 0 0 14px;
 }
 
 .profile-university-logo img {
   display: block;
-  width: 125px;
+  width: 82px;
   max-width: 100%;
   height: auto;
 }
 
 .portrait-frame {
-  width: 270px;
+  width: 320px;
   aspect-ratio: 1 / 1;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   overflow: hidden;
   border-radius: 50%;
   background: #e8e8e3;
@@ -103,7 +103,7 @@ a:hover { color: var(--accent); }
 .profile-name {
   margin: 0 0 5px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.5rem;
+  font-size: 1.18rem;
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: -0.025em;
@@ -112,7 +112,7 @@ a:hover { color: var(--accent); }
 .profile-title {
   margin: 0 0 5px;
   color: var(--text);
-  font-size: 0.96rem;
+  font-size: 0.90rem;
   font-weight: 650;
   line-height: 1.45;
 }
@@ -120,7 +120,7 @@ a:hover { color: var(--accent); }
 .profile-affiliation {
   margin: 0;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   line-height: 1.45;
 }
 
@@ -128,17 +128,21 @@ a:hover { color: var(--accent); }
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 11px;
+  margin-top: 15px;
 }
 
 .social-icon {
-  min-width: 24px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #363b40;
+  color: #42474c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.91rem;
+  font-weight: 700;
+  line-height: 1;
   transition: color 140ms ease, transform 140ms ease;
 }
 
@@ -149,42 +153,18 @@ a:hover { color: var(--accent); }
 
 .social-icon:focus-visible {
   outline: 2px solid var(--accent);
-  outline-offset: 4px;
-  border-radius: 4px;
+  outline-offset: 3px;
+  border-radius: 3px;
 }
 
-.social-icon svg {
-  width: 21px;
-  height: 21px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.75;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.social-x span {
-  font-size: 1.22rem;
-  line-height: 1;
-}
-
-.social-linkedin span {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.05rem;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.04em;
-}
-
-.social-orcid span {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.92rem;
-  font-weight: 750;
-  line-height: 1;
-}
+.social-mail span { font-size: 0.93rem; font-weight: 500; }
+.social-x span { font-size: 0.96rem; font-weight: 500; }
+.social-linkedin span { font-size: 0.86rem; font-weight: 800; letter-spacing: -0.05em; }
+.social-scholar span { font-family: Georgia, "Times New Roman", serif; font-size: 0.92rem; font-weight: 700; }
+.social-orcid span { font-size: 0.77rem; font-weight: 800; letter-spacing: -0.06em; }
 
 .profile-about {
-  padding-top: 34px;
+  padding-top: 77px;
   max-width: 700px;
 }
 
@@ -395,9 +375,9 @@ h1, h2, h3 { margin-top: 0; }
     padding-top: 50px;
   }
   .profile-card { align-items: flex-start; text-align: left; }
-  .profile-university-logo { margin-bottom: 24px; }
-  .profile-university-logo img { width: 125px; }
-  .portrait-frame { width: min(260px, 72vw); }
+  .profile-university-logo { margin-bottom: 14px; }
+  .profile-university-logo img { width: 82px; }
+  .portrait-frame { width: min(300px, 82vw); }
   .social-icons { justify-content: flex-start; }
   .profile-about { padding-top: 0; max-width: 680px; }
   .section { grid-template-columns: 1fr; gap: 26px; padding: 56px 0; }
@@ -411,8 +391,8 @@ h1, h2, h3 { margin-top: 0; }
   .nav { min-height: 58px; }
   .nav-links { gap: 18px; }
   .hero.profile-hero { padding: 38px 0 48px; gap: 36px; }
-  .profile-university-logo img { width: 118px; }
-  .profile-name { font-size: 1.45rem; }
+  .profile-university-logo img { width: 76px; }
+  .profile-name { font-size: 1.16rem; }
   .hero-copy { font-size: 1.2rem; }
   .paper { padding: 25px 0 27px; }
   .status { display: inline-flex; margin: 7px 0 0; }
