@@ -55,8 +55,8 @@ a:hover { color: var(--accent); }
 
 .hero.profile-hero {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
-  gap: 82px;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 74px;
   align-items: start;
   padding: 72px 0 70px;
   border-bottom: 1px solid var(--line);
@@ -71,20 +71,20 @@ a:hover { color: var(--accent); }
 
 .profile-university-logo {
   display: block;
-  margin: 0 0 28px;
+  margin: 0 0 20px;
 }
 
 .profile-university-logo img {
   display: block;
-  width: 215px;
+  width: 125px;
   max-width: 100%;
   height: auto;
 }
 
 .portrait-frame {
-  width: 214px;
+  width: 270px;
   aspect-ratio: 1 / 1;
-  margin: 0 0 24px;
+  margin: 0 0 20px;
   overflow: hidden;
   border-radius: 50%;
   background: #e8e8e3;
@@ -103,7 +103,7 @@ a:hover { color: var(--accent); }
 .profile-name {
   margin: 0 0 5px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.85rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: -0.025em;
@@ -184,7 +184,7 @@ a:hover { color: var(--accent); }
 }
 
 .profile-about {
-  padding-top: 54px;
+  padding-top: 34px;
   max-width: 700px;
 }
 
@@ -396,8 +396,8 @@ h1, h2, h3 { margin-top: 0; }
   }
   .profile-card { align-items: flex-start; text-align: left; }
   .profile-university-logo { margin-bottom: 24px; }
-  .profile-university-logo img { width: 200px; }
-  .portrait-frame { width: min(210px, 62vw); }
+  .profile-university-logo img { width: 125px; }
+  .portrait-frame { width: min(260px, 72vw); }
   .social-icons { justify-content: flex-start; }
   .profile-about { padding-top: 0; max-width: 680px; }
   .section { grid-template-columns: 1fr; gap: 26px; padding: 56px 0; }
@@ -411,8 +411,8 @@ h1, h2, h3 { margin-top: 0; }
   .nav { min-height: 58px; }
   .nav-links { gap: 18px; }
   .hero.profile-hero { padding: 38px 0 48px; gap: 36px; }
-  .profile-university-logo img { width: 178px; }
-  .profile-name { font-size: 1.7rem; }
+  .profile-university-logo img { width: 118px; }
+  .profile-name { font-size: 1.45rem; }
   .hero-copy { font-size: 1.2rem; }
   .paper { padding: 25px 0 27px; }
   .status { display: inline-flex; margin: 7px 0 0; }
